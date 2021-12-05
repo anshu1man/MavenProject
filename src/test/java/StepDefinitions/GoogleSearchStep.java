@@ -32,22 +32,27 @@ public class GoogleSearchStep {
 		
 	}
 
-	@When("User enters the Text to be Searched")
-	public void user_enters_the_Text_to_be_Searched() {
-		driver.findElement(By.name("q")).sendKeys("Tiger");
+	@When("^User enters the (.*) to be Searched$")
+	public void user_enters_the_Text_to_be_Searched(String strtext) throws InterruptedException {
+		driver.findElement(By.name("q")).sendKeys(strtext);
+		Thread.sleep(5000);
 		
 	}
 
 	@And("User clicks on Search button")
-	public void user_clicks_on_Search_button() {
+	public void user_clicks_on_Search_button() throws InterruptedException {
 		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+		Thread.sleep(5000);
 		
 	}
 
-	@Then("User Successfully navigate to")
-	public void user_Successfully_navigate_to() {
-		String tigerSearchText = driver.findElement(By.xpath("//*[@id='rso']//a/h3[text()='Tiger - Wikipedia']")).getText();
-		Assert.assertEquals(tigerSearchText, "Tiger - Wikipedia");
+	@Then("^User Successfully navigate to(.*)$")
+	public void user_Successfully_navigate_to(String strtext) {
+		String tigerSearchText = driver.findElement(By.xpath("//*[@id='rso']//a/h3[contains(text(),'"+strtext+"')]")).getText();
+		if(tigerSearchText.contains(strtext))
+			Assert.assertTrue(true);
+		else
+			Assert.assertTrue(false);
 		driver.quit();
 		
 	}
