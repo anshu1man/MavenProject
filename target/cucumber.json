@@ -1,0 +1,642 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-12T10:00:54.991Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3059000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.Browser_Initialization_Block()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Check if User is able Search Successfully at Google",
+        "description": "",
+        "id": "check-the-search-functionality-at-google-search-engine;check-if-user-is-able-search-successfully-at-google;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 778000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.Browser_Quit_Block()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.browser_is_open()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7583000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "Open a Google Search Engine",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.open_a_Google_Search_Engine()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5103000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User enters the Tiger to be Searched",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tiger",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.GoogleSearchStep.user_enters_the_Text_to_be_Searched(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7638000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User clicks on Search button",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.user_clicks_on_Search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User Successfully navigate toTiger",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tiger",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.GoogleSearchStep.user_Successfully_navigate_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-12T10:01:19.283Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1726000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.Browser_Initialization_Block()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Check if User is able Search Successfully at Google",
+        "description": "",
+        "id": "check-the-search-functionality-at-google-search-engine;check-if-user-is-able-search-successfully-at-google;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 694000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.Browser_Quit_Block()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.browser_is_open()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8004000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "Open a Google Search Engine",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.open_a_Google_Search_Engine()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5069000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User enters the Lion to be Searched",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lion",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.GoogleSearchStep.user_enters_the_Text_to_be_Searched(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7117000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User clicks on Search button",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.user_clicks_on_Search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User Successfully navigate toLion",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lion",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.GoogleSearchStep.user_Successfully_navigate_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-12T10:01:41.943Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1711000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.Browser_Initialization_Block()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Check if User is able Search Successfully at Google",
+        "description": "",
+        "id": "check-the-search-functionality-at-google-search-engine;check-if-user-is-able-search-successfully-at-google;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 765000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.Browser_Quit_Block()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.browser_is_open()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7500000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "Open a Google Search Engine",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.open_a_Google_Search_Engine()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5094000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "User enters the Elephant to be Searched",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Elephant",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.GoogleSearchStep.user_enters_the_Text_to_be_Searched(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7404000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "User clicks on Search button",
+            "match": {
+              "location": "StepDefinitions.GoogleSearchStep.user_clicks_on_Search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.BefoteStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "User Successfully navigate toElephant",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Elephant",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.GoogleSearchStep.user_Successfully_navigate_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.GoogleSearchStep.Afterstep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Check The Search Functionality at Google Search Engine",
+    "description": "",
+    "id": "check-the-search-functionality-at-google-search-engine",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/GoogleSearch.feature",
+    "tags": []
+  }
+]

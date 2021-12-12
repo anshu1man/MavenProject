@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: StepDefinitions.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 60.771 sec <<< FAILURE!
-Check if User is able Search Successfully at Google(Check The Search Functionality at Google Search Engine)  Time elapsed: 18.811 sec  <<< FAILURE!
-junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
-	at junit.framework.Assert.assertTrue(Assert.java:31)
-	at StepDefinitions.GoogleSearchStep.user_Successfully_navigate_to(GoogleSearchStep.java:55)
-	at ?.User Successfully navigate toElephant(file:///C:/Users/Anshuman%20Singh/eclipse-workspace/BDDCucumberGITJenkin/src/test/resources/Features/GoogleSearch.feature:8)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 70.401 s - in StepDefinitions.TestRunner
